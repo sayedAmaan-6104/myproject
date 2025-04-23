@@ -28,7 +28,12 @@ export function MicrophoneSettings() {
           <MediaDeviceMenu kind="audioinput" />
         </div>
       </section>
-
+      <button
+  onClick={() => window.location.href = 'http://localhost:3001/'}
+  style={{ padding: '10px 20px', marginLeft: '10px' }}
+>
+  Open Recorder
+</button>
       <button
         className="lk-button"
         onClick={() => setNoiseFilterEnabled(!isNoiseFilterEnabled)}

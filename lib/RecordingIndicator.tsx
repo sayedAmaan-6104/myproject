@@ -38,3 +38,9 @@ export function RecordingIndicator() {
     ></div>
   );
 }
+<button
+  onClick={() => window.location.href = 'http://localhost:8501/'}
+  style={{ padding: '10px 20px', marginLeft: '10px' }}
+>
+  Open Recorder
+</button>

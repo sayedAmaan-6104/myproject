@@ -47,7 +47,12 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   themeColor: '#070707',
 };
-
+<button
+  onClick={() => window.location.href = 'http://localhost:3001/'}
+  style={{ padding: '10px 20px', marginLeft: '10px' }}
+>
+  learn more
+</button>
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">

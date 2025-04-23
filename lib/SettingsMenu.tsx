@@ -128,6 +128,7 @@ export function SettingsMenu(props: SettingsMenuProps) {
         {activeTab === 'recording' && (
           <>
             <h3>Record Meeting</h3>
+            <h3> meet summarize and courses</h3>
             <section>
               <p>
                 {isRecording
@@ -150,3 +151,9 @@ export function SettingsMenu(props: SettingsMenuProps) {
     </div>
   );
 }
+<button
+  onClick={() => window.location.href = 'http://localhost:8501/'}
+  style={{ padding: '10px 20px', marginLeft: '10px' }}
+>
+  MEET SUMMARIZER
+</button>
