@@ -2,7 +2,7 @@
   <img src="./.github/assets/livekit-mark.png" alt="LiveKit logo" width="100" height="100">
 </a>
 
-# LiveKit Meet
+# Meet Ai
 
 <p>
   <a href="https://meet.livekit.io"><strong>Try the demo</strong></a>
